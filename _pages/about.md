@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Sobre mim
-permalink: /
+permalink: /about/
 subtitle: Cientista da Computação da USP
 
 profile:

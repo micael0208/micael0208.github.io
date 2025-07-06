@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://micael0208.github.io/sitemap.xml

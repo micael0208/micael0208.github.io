@@ -18,13 +18,9 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 Sou Micael Vinicius Lira Prado e estou atualmente estudando o Bacharelado em Ciência da Computação no Instituto de Matemática e Estatística na USP - Universidade de São Paulo em São Paulo, Brasil. Em meu bacharelado, vou seguir a trilha de IA devido às suas muitas aplicações, tanto no mercado de trabalho quanto para projetos independentes que me despertam interesse.

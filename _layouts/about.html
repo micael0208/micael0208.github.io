@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.subtitle }}</h2>
+  </header>
+
+  <section id="profile" style="float: right; margin-left: 20px;">
+    {% if page.profile.image %}
+      <img src="{{ '/img/' | append: page.profile.image }}" alt="Foto de perfil" 
+           style="{% if page.profile.image_circular %}border-radius: 50%;{% endif %} max-width: 200px;">
+    {% endif %}
+    <div>
+      {{ page.profile.more_info | markdownify }}
+    </div>
+  </section>
+
+  <section id="content">
+    {{ content }}
+  </section>
+
+  <footer>
+    {% if page.social %}
+      <!-- Exemplo: colocar links sociais aqui -->
+      <p>Redes sociais aqui</p>
+    {% endif %}
+  </footer>
+</body>
+</html>
